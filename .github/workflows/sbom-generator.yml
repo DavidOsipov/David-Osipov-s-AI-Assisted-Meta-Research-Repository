@@ -16,6 +16,7 @@ on:
 
 permissions:
   contents: write # Needed to commit back to the repository
+  pull-requests: write # Needed to create the PR
 
 jobs:
   generate-sbom:
@@ -65,11 +66,26 @@ jobs:
             exit 1
           fi
 
-      - name: Commit SBOM file
-        uses: stefanzweifel/git-auto-commit-action@e348103e9026cc0eee72ae06630dbe30c8bf7a79
+      - name: Create Pull Request # Replaces the git-auto-commit-action
+        uses: peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e
         with:
-          commit_message: "chore: Update SBOM"
-          file_pattern: sbom.spdx
-          commit_user_name: GitHub Actions
-          commit_user_email: actions@github.com
-          commit_author: GitHub Actions <actions@github.com>
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: 'chore(sbom): Update SBOM' # Quoted to avoid YAML parsing issues
+          committer: 'GitHub <noreply@github.com>' # Quoted
+          author: '${{ github.actor }} <${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com>' # Quoted
+          signoff: false
+          branch: 'chore/update-sbom' # Quoted for consistency
+          delete-branch: true # Delete the branch once the PR is merged/closed
+          title: 'chore(sbom): Update SBOM' # Quoted
+          body: |
+            Automated SBOM update via GitHub Actions.
+
+            This PR updates the `sbom.spdx` file.
+          labels: |
+            sbom
+            automated pr
+          assignees: ${{ github.actor }}
+          # reviewers: # Optional: Add reviewers
+          # team-reviewers: # Optional: Add team reviewers
+          # milestone: # Optional: Assign a milestone
+          # draft: false # Set to true to create a draft PR
