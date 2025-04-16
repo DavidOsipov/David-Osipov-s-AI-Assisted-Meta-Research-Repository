@@ -18,6 +18,8 @@ LicenseComments: The content of this repository is licensed under CC BY 4.0, req
 
 The goal here is to explore complex topics by leveraging AI for initial information gathering and synthesis, followed by rigorous human review, validation, structuring, and critical analysis by me. You'll find synthesized research papers, literature reviews, and analyses on subjects primarily within environmental health, toxicology, cybersecurity, AI ethics, and potentially other areas I delve into.
 
+This repository utilizes [SPDX](https://spdx.dev/) identifiers for precise file-level licensing and copyright information. Additionally, a Software Bill of Materials (SBOM) in SPDX format (`sbom.spdx.json`) is automatically generated and updated via GitHub Actions to provide transparency about the repository's components and structure.
+
 ## Methodology & Disclaimer
 
 The research papers here are generated using a combination of state-of-the-art AI models (like Gemini, Claude, Grok, etc.) for initial drafting and literature searching, followed by my own critical assessment, fact-checking (using tools like Google Scholar and direct source review where possible), synthesis, editing, and formatting.
