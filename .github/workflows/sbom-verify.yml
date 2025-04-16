@@ -30,7 +30,7 @@ jobs:
       - name: Verify SBOM
         run: |
           echo "Verifying sbom.spdx.json..."
-          spdx-tools sbom.spdx.json
+          spdx-tools -i sbom.spdx.json
           if [ $? -eq 0 ]; then
             echo "SBOM verification successful."
           else
