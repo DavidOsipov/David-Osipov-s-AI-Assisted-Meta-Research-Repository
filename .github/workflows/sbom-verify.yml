@@ -1,0 +1,39 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# SPDX-FileCopyrightText: Copyright © 2025 David Osipov  <personal@david-osipov.vision> (ORCID: 0009-0005-2713-9242, ISNI: 0000 0005 1802 960X)
+# SPDXID: SPDXRef-File--dot-github-workflows-sbom-verify-yml
+# FileType: SOURCE
+#
+# FileName: .github/workflows/sbom-verify.yml
+# FileComment: GitHub Actions workflow for manually verifying the SPDX SBOM.
+# LicenseComments: Workflow configuration licensed under GPL-3.0-or-later.
+name: Verify SBOM
+
+on:
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  verify-sbom:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@85e6279cec87321a52edac9c87bce653a07cf6c2
+
+      - name: Set up Python
+        uses: actions/setup-python@e348410e00f449ece8581cb8e88be8f0e7712da6
+        with:
+          python-version: '3.13' # Use a version compatible with spdx-tools
+          cache: 'pip'
+
+      - name: Install spdx-tools
+        run: pip install spdx-tools
+
+      - name: Verify SBOM
+        run: |
+          echo "Verifying sbom.spdx.json..."
+          spdx-tools sbom.spdx.json
+          if [ $? -eq 0 ]; then
+            echo "SBOM verification successful."
+          else
+            echo "SBOM verification failed."
+            exit 1
+          fi

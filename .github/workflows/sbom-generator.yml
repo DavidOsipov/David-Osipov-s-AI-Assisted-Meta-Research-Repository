@@ -50,23 +50,23 @@ jobs:
 
       - name: Generate SBOM
         run: |
-          sbom4files -d . -p "${{ github.repository }}" -r -i pyc,py,pyi --sbom spdx --format json -o sbom.spdx
+          sbom4files -d . -p "${{ github.repository }}" -r -i pyc,py,pyi --sbom spdx --format json -o sbom.spdx.json
           echo "SBOM generation completed."
 
       - name: Filter out .git directory and self from SBOM
         run: |
           # Use map/select to rebuild the array, keeping only valid file objects that don't match the patterns
-          jq '.files |= map(select(type == "object" and has("fileName") and (.fileName | startswith("./.git/") | not) and (.fileName != "./sbom.spdx")))' sbom.spdx > sbom_filtered.spdx
+          jq '.files |= map(select(type == "object" and has("fileName") and (.fileName | startswith("./.git/") | not) and (.fileName != "./sbom.spdx.json")))' sbom.spdx.json > sbom_filtered.spdx
           # Check if filtering was successful before moving
           if [ $? -eq 0 ]; then
-            mv sbom_filtered.spdx sbom.spdx
+            mv sbom_filtered.spdx sbom.spdx.json
             echo "Successfully filtered SBOM."
           else
-            echo "Error filtering SBOM. Check sbom.spdx and the jq command."
+            echo "Error filtering SBOM. Check sbom.spdx.json and the jq command."
             exit 1
           fi
 
-      - name: Create Pull Request # Replaces the git-auto-commit-action
+      - name: Create Pull Request
         uses: peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -80,7 +80,7 @@ jobs:
           body: |
             Automated SBOM update via GitHub Actions.
 
-            This PR updates the `sbom.spdx` file.
+            This PR updates the `sbom.spdx.json` file.
           assignees: ${{ github.actor }}
           # reviewers: # Optional: Add reviewers
           # team-reviewers: # Optional: Add team reviewers
