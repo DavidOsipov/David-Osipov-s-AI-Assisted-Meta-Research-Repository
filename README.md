@@ -1,3 +1,13 @@
+<!--
+SPDX-License-Identifier: CC-BY-4.0
+SPDX-FileCopyrightText: Copyright © 2025 David Osipov (ORCID: 0009-0005-2713-9242, ISNI: 0000 0005 1802 960X)
+SPDXID: SPDXRef-File-README-md
+
+FileName: README.md
+FileComment: Main description and guide for the AI-Assisted Meta-Research Repository. Explains methodology, licensing, and provides author contact information.
+LicenseComments: The content of this repository is licensed under CC BY 4.0, requiring attribution as specified within this file.
+-->
+
 # David Osipov's AI-Assisted Meta-Research Repository
 
 👋 Welcome! I'm David Osipov, a Product Manager with a passion for cybersecurity, AI, and open knowledge. This repository hosts meta-research projects – critical reviews and syntheses of scientific literature on various topics, often created through a collaboration between human expertise and artificial intelligence.
@@ -36,7 +46,7 @@ You can find the full license text in the [LICENSE](LICENSE) file.
     *   Provide a link to the license (CC BY 4.0).
 
     *Example Citation/Attribution:*
-    > Synthesized research on [Topic] by David Osipov © [Year] (@DavidOsipov, ORCID: 0009-0005-2713-9242, ISNI: 0000 0005 1802 960X), retrieved from [Link to specific file/repo], licensed under CC BY 4.0. [Indicate if changes were made]
+    > Synthesized research on [Topic] by David Osipov © [Year] (ORCID: 0009-0005-2713-9242, ISNI: 0000 0005 1802 960X), retrieved from [Link to specific file/repo], licensed under CC BY 4.0. [Indicate if changes were made]
 
     Fulfilling these attribution requirements is essential for compliance with the CC BY 4.0 license.
 

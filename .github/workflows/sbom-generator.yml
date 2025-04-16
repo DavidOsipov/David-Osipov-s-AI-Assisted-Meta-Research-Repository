@@ -1,0 +1,62 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# SPDX-FileCopyrightText: Copyright © 2025 David Osipov (ORCID: 0009-0005-2713-9242, ISNI: 0000 0005 1802 960X)
+# SPDXID: SPDXRef-File--dot-github-workflows-sbom-generator-yml
+#
+# FileName: .github/workflows/sbom-generator.yml
+# FileComment: Example GitHub Actions workflow for CI/CD or other automation for the meta-research repository.
+# LicenseComments: Workflow configuration licensed under GPL-3.0-or-later.
+name: Generate SBOM
+
+on:
+  push:
+    branches:
+      - main # Or your default branch name
+
+permissions:
+  contents: write # Needed to commit back to the repository
+
+jobs:
+  generate-sbom:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+
+      - name: Set up Python
+        uses: actions/setup-python@8d9ed9ac5c53483de85588cdf95a591a75ab9f55
+        with:
+          python-version: '3.13'
+          cache: 'pip'
+
+      - name: Cache apt packages
+        uses: actions/cache@5a3ec84eff668545956fd18022155c47e93e2684
+        with:
+          path: /var/cache/apt/archives
+          key: ${{ runner.os }}-apt-libmagic-${{ hashFiles('.github/workflows/sbom-generator.yml') }} # Key based on OS and this workflow file
+          restore-keys: |
+            ${{ runner.os }}-apt-libmagic-
+
+      - name: Install system dependencies
+        run: sudo apt-get update && sudo apt-get install -y libmagic-dev
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install sbom4files
+
+      - name: Generate SBOM
+        run: |
+          sbom4files -d . -p "${{ github.repository }}" \\
+                     -r \\
+                     -i .pyc,.git,py,pyi,yml \\
+                     --sbom spdx --format json \\
+                     -o sbom.spdx
+
+      - name: Commit SBOM file
+        uses: stefanzweifel/git-auto-commit-action@e348103e9026cc0eee72ae06630dbe30c8bf7a79
+        with:
+          commit_message: "chore: Update SBOM"
+          file_pattern: sbom.spdx
+          commit_user_name: GitHub Actions
+          commit_user_email: actions@github.com
+          commit_author: GitHub Actions <actions@github.com>
