@@ -81,9 +81,6 @@ jobs:
             Automated SBOM update via GitHub Actions.
 
             This PR updates the `sbom.spdx` file.
-          labels: |
-            sbom
-            automated pr
           assignees: ${{ github.actor }}
           # reviewers: # Optional: Add reviewers
           # team-reviewers: # Optional: Add team reviewers
