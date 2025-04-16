@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
-# SPDX-FileCopyrightText: Copyright © 2025 David Osipov (ORCID: 0009-0005-2713-9242, ISNI: 0000 0005 1802 960X)
+# SPDX-FileCopyrightText: Copyright © 2025 David Osipov  <personal@david-osipov.vision> (ORCID: 0009-0005-2713-9242, ISNI: 0000 0005 1802 960X)
 # SPDXID: SPDXRef-File--dot-github-workflows-sbom-generator-yml
 # FileType: SOURCE
 #
@@ -9,6 +9,7 @@
 name: Generate SBOM
 
 on:
+  workflow_dispatch: # Allows manual triggering
   push:
     branches:
       - main # Or your default branch name
@@ -39,7 +40,7 @@ jobs:
             ${{ runner.os }}-apt-libmagic-
 
       - name: Install system dependencies
-        run: sudo apt-get update && sudo apt-get install -y libmagic-dev
+        run: sudo apt-get update && sudo apt-get install -y libmagic-dev jq
 
       - name: Install Python dependencies
         run: |
@@ -48,9 +49,12 @@ jobs:
 
       - name: Generate SBOM
         run: |
-          sbom4files -d . -p "${{ github.repository }}" -r -i .pyc,py,pyi,yml,.git/config,.git/FETCH_HEAD,.git/HEAD,.git/index,.git/description,.git/hooks/*,.git/info/*,.git/logs/*,.git/objects/*,.git/refs/*,renovate.json --sbom spdx --format json -o sbom.spdx
+          sbom4files -d . -p "${{ github.repository }}" -r -i pyc,py,pyi --sbom spdx --format json -o sbom.spdx
+          echo "SBOM generation completed."
 
-          echo "SBOM generation completed." # Added log message for completion
+      - name: Filter out .git directory from SBOM
+        run: |
+          jq 'del(.files[] | select(.fileName | startswith("./.git/")))' sbom.spdx > sbom_filtered.spdx && mv sbom_filtered.spdx sbom.spdx
           
       - name: Commit SBOM file
         uses: stefanzweifel/git-auto-commit-action@e348103e9026cc0eee72ae06630dbe30c8bf7a79

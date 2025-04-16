@@ -1,6 +1,6 @@
 <!--
 SPDX-License-Identifier: CC-BY-4.0
-SPDX-FileCopyrightText: Copyright © 2025 David Osipov (ORCID: 0009-0005-2713-9242, ISNI: 0000 0005 1802 960X)
+SPDX-FileCopyrightText: Copyright © 2025 David Osipov  <personal@david-osipov.vision> (ORCID: 0009-0005-2713-9242, ISNI: 0000 0005 1802 960X)
 SPDXID: SPDXRef-File-README-md
 FileType: TEXT
 FileType: DOCUMENTATION
