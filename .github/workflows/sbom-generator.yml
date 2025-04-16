@@ -54,8 +54,17 @@ jobs:
 
       - name: Filter out .git directory and self from SBOM
         run: |
-          jq 'del(.files[] | select(type == "object" and .fileName? and (.fileName | startswith("./.git/") or .fileName == "./sbom.spdx")))' sbom.spdx > sbom_filtered.spdx && mv sbom_filtered.spdx sbom.spdx
-          
+          # Use map/select to rebuild the array, keeping only valid file objects that don't match the patterns
+          jq '.files |= map(select(type == "object" and has("fileName") and (.fileName | startswith("./.git/") | not) and (.fileName != "./sbom.spdx")))' sbom.spdx > sbom_filtered.spdx
+          # Check if filtering was successful before moving
+          if [ $? -eq 0 ]; then
+            mv sbom_filtered.spdx sbom.spdx
+            echo "Successfully filtered SBOM."
+          else
+            echo "Error filtering SBOM. Check sbom.spdx and the jq command."
+            exit 1
+          fi
+
       - name: Commit SBOM file
         uses: stefanzweifel/git-auto-commit-action@e348103e9026cc0eee72ae06630dbe30c8bf7a79
         with:
