@@ -2,6 +2,7 @@
 SPDX-License-Identifier: CC-BY-4.0
 SPDX-FileCopyrightText: Copyright © 2025 David Osipov (ORCID: 0009-0005-2713-9242, ISNI: 0000 0005 1802 960X)
 SPDXID: SPDXRef-File-docs-PM2-5_dangers-dangers_of_fine_particulates_in_air-md
+FileType: TEXT
 
 FileName: docs/PM2.5_dangers/dangers_of_fine_particulates_in_air.md
 FileComment: AI-assisted synthesized research paper on the health impacts and dangers associated with PM2.5 fine particulate matter in ambient air. Subject to human review and validation.

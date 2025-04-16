@@ -2,6 +2,8 @@
 SPDX-License-Identifier: CC-BY-4.0
 SPDX-FileCopyrightText: Copyright © 2025 David Osipov (ORCID: 0009-0005-2713-9242, ISNI: 0000 0005 1802 960X)
 SPDXID: SPDXRef-File-README-md
+FileType: TEXT
+FileType: DOCUMENTATION
 
 FileName: README.md
 FileComment: Main description and guide for the AI-Assisted Meta-Research Repository. Explains methodology, licensing, and provides author contact information.
