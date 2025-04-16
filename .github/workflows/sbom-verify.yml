@@ -33,7 +33,7 @@ jobs:
       - name: Verify SBOM
         run: |
           echo "Verifying sbom.spdx.json..."
-          python -m spdx_tools -i sbom.spdx.json # Use python -m
+          spdx_tools -i sbom.spdx.json
           if [ $? -eq 0 ]; then
             echo "SBOM verification successful."
           else
