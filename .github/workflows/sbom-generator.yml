@@ -71,7 +71,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: 'chore(sbom): Update SBOM' # Quoted to avoid YAML parsing issues
-          committer: 'GitHub <noreply@github.com>' # Quoted
+          committer: 'SBOM Generator <noreply@github.com>' # Quoted
           author: '${{ github.actor }} <${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com>' # Quoted
           signoff: false
           branch: 'chore/update-sbom' # Quoted for consistency
