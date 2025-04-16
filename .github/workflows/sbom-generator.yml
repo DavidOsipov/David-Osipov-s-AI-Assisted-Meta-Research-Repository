@@ -48,11 +48,7 @@ jobs:
 
       - name: Generate SBOM
         run: |
-          sbom4files -d . -p "${{ github.repository }}" \\
-                     -r \\
-                     -i .pyc,.git,py,pyi,yml \\
-                     --sbom spdx --format json \\
-                     -o sbom.spdx
+          sbom4files -d . -p "${{ github.repository }}" -r -i .pyc,.git,py,pyi,yml --sbom spdx --format json -o sbom.spdx
 
       - name: Commit SBOM file
         uses: stefanzweifel/git-auto-commit-action@e348103e9026cc0eee72ae06630dbe30c8bf7a79
