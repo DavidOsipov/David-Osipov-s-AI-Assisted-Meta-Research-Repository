@@ -1,5 +1,5 @@
-SPDX-License-Identifier: CC-BY-4.0
-SPDX-FileCopyrightText: Copyright (c) 2025 David Osipov
+<!-- SPDX-License-Identifier: CC-BY-4.0
+SPDX-FileCopyrightText: Copyright (c) 2025 David Osipov -->
 
 # Health Dangers of Fine Particulate Matter (PM2.5) Exposure: A Synthesized Review
 
