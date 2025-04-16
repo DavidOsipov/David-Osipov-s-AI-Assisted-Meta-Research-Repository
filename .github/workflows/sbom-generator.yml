@@ -52,9 +52,9 @@ jobs:
           sbom4files -d . -p "${{ github.repository }}" -r -i pyc,py,pyi --sbom spdx --format json -o sbom.spdx
           echo "SBOM generation completed."
 
-      - name: Filter out .git directory from SBOM
+      - name: Filter out .git directory and self from SBOM
         run: |
-          jq 'del(.files[] | select(.fileName | startswith("./.git/")))' sbom.spdx > sbom_filtered.spdx && mv sbom_filtered.spdx sbom.spdx
+          jq 'del(.files[] | select(.fileName | startswith("./.git/") or .fileName == "./sbom.spdx"))' sbom.spdx > sbom_filtered.spdx && mv sbom_filtered.spdx sbom.spdx
           
       - name: Commit SBOM file
         uses: stefanzweifel/git-auto-commit-action@e348103e9026cc0eee72ae06630dbe30c8bf7a79
