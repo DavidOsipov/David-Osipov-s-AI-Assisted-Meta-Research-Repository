@@ -6,12 +6,12 @@
     "creators": [
       "Tool: sbom4files-0.4.5"
     ],
-    "created": "2025-04-16T12:58:09Z",
+    "created": "2025-04-16T13:17:46Z",
     "licenseListVersion": "3.25"
   },
   "name": "DavidOsipov/David-Osipov-AI-Assisted-Meta-Research-Repository",
   "dataLicense": "CC0-1.0",
-  "documentNamespace": "http://spdx.org/spdxdocs/DavidOsipov/David-Osipov-AI-Assisted-Meta-Research-Repository-91fc288b-a371-477b-84c9-43ef8cdaa54b",
+  "documentNamespace": "http://spdx.org/spdxdocs/DavidOsipov/David-Osipov-AI-Assisted-Meta-Research-Repository-5092b14e-bb4b-4f99-8118-78204c7bd820",
   "files": [
     {
       "SPDXID": "SPDXRef-File-1-LICENSE",
@@ -56,15 +56,15 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "bec66065e6081969d9a80af9340d1b647946e72f"
+          "checksumValue": "b2e1eb6dddbe036863d9ac9162f1405344bfa915"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "003b44dec6e6785762d99c4ddd7625f4c1bb332717b0a27f868e58ea2ee694db"
+          "checksumValue": "32f91ff436552e8c23bfe1f641288518cee395ad55b98a6f40849c539eef5a0e"
         },
         {
           "algorithm": "SHA512",
-          "checksumValue": "f4fa3c78c0a0d2aa029fd8b8f32121cb17b858505651a54c1e86162a9f51d8fa8a0e86b2099dcd2b48c7ca18915880933c856d011cfa174847a1cc234086d09d"
+          "checksumValue": "57bd965a2f5e17015ac7cb7d5cff061f45c463bf1ce24bfac8a93b8e027f3d3630d377c7bdf789ead7a4795ad278a7dfd03396f194902c825c1daeee5028d91e"
         }
       ]
     },
@@ -111,15 +111,15 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "fc132e2133e254fb62af3869f25a9eff4499806a"
+          "checksumValue": "a936cc01bec815262b55d00b42cae8f201e008ff"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "254163dfecab39af8088fe2c15cadf7b374fcb26118450482fd728fc34fae6bf"
+          "checksumValue": "9250b88517e832773de0f0ae25e1def652dc782278e702f5b0dc33abf8ee4ee0"
         },
         {
           "algorithm": "SHA512",
-          "checksumValue": "142be0856a489e726191921a2448c02de8286df1784da167577aff7397510d65ab525195fbf8326dcf473c26237fa026b0088a23f6674b0a78d57f2f30f2ea84"
+          "checksumValue": "af138ae5c47ab998eea526c9e6b9599721edd3e5069ffcfc7a0667a8476fcabd9f023dfdf6bdfe15ce59aae652b6cdfec99617aa94bbe739cce85f1e39150a43"
         }
       ]
     },
@@ -165,15 +165,15 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "2440d9755dd9a2232ef9727479b0f8f2c369e84e"
+          "checksumValue": "b77f3160314cd893e2584f062018d9adea5e5972"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "df15f6544b87e41454e890ce51c2f9ea5942728be0651f43fd39823d3c9c841d"
+          "checksumValue": "5ca1c505e87dfbec2b4c6c2ce662d7d08f9c137e7fed0acd9a8ac1368cd5ee06"
         },
         {
           "algorithm": "SHA512",
-          "checksumValue": "b940f2bc8ddd4938c4feee92278e265063b93d5951dc0957e88273fa06eefe827010a1c256485a06e3bd26d5b05c7f8bb92e976915f1e8520fd1396dd4581e1f"
+          "checksumValue": "3a95dba81f6f04a6125ce1b1ace20b753b0645e4267f4313556764be27ec2a9d5092ed3649ed99c4ae84a9972f02eff5ab5c62bbf9df99e3d6f216006385caad"
         }
       ]
     },
@@ -219,15 +219,15 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "3c81c89e0e47ec29255de5d57305bd528631b662"
+          "checksumValue": "47f59c3698e553affae4e3111874e90e8adcb143"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "184d4553f450015c0c06817a2f41993d54cb1922c961b2f67abc60c666984638"
+          "checksumValue": "e1bd561a02969e1320c66e1a8a27ad52571fc0a2b16e1faf6f17986bc7645088"
         },
         {
           "algorithm": "SHA512",
-          "checksumValue": "35112c654deeb3c80f7ced59627be92e67116abe8a1e91f8c847afd5080b63732113784d4a97fc8db3892eecc3086371378ae4e8e7f0c6c1ba974c103a5b9f38"
+          "checksumValue": "822f8f7b99c79cbd583b0dbd522d5c5fdb17e6cce60af5e5bf228937a35254e6739fb8a8171f239f8b5e89390a44b8f4cb40f4c7bf23943741c09ae5b46ad5a0"
         }
       ]
     },
@@ -273,15 +273,15 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "39a1476a84fb81f46c8a708973b6397cdcd4de3a"
+          "checksumValue": "e9ec1717726f33aea2c93c744aea6a0765b96dcb"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "56b7e17a2954e782ef94a56595767fc0a1a4fd801712f2e85bdbfb036088717e"
+          "checksumValue": "26376e9db7901c2c0d72e47f7af4566977d9dd8eb16bfa1be531b224762473d4"
         },
         {
           "algorithm": "SHA512",
-          "checksumValue": "d32a52909cbe4a293a55251c9f534569f32792248464af42c647c62ccc810103a93571a18f292604f2863f32cac4162c3d2b509440436eaa3cdf87d5cf3c543c"
+          "checksumValue": "d3152c02c12ca54a2033c43b98a33f828e9de1d4f4986bef18819f7c7fb65afbbd98f7e8257a8b8db933f66b5f3acfba4c5ce08a82b0e4c6658973ec3fac8297"
         }
       ]
     },
@@ -300,15 +300,15 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "0c021cc69430469151e187e0fee8b405553ec92b"
+          "checksumValue": "fc47ba233249f64178dc75a4f3ae7dbcff9b3ea1"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "4c001cfe0824516beec45b8f44c9d4e983b774257c26ee2e377fd77a258f80cd"
+          "checksumValue": "93eaaea41ec656b76b55ff89fabffbc2e5529b2293c2c5098b7ca27b863279a0"
         },
         {
           "algorithm": "SHA512",
-          "checksumValue": "6fc0ebc1dfc6c0f375b09ec62a395644eb3e5ec585c68d859b59133d95d4c9795cfe0094bee30cc401482daf017c54cac011454c6f660587737c44da932d10db"
+          "checksumValue": "22475e900a2ccf5e38866ecced7566ecab53d1e08047efef62c9806d9f826ac90711576401862b905d6e50eb6e9c816a5e1f82c81b06fe3700f5a8f9cf8dd7a5"
         }
       ]
     },
@@ -436,15 +436,15 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "aa0adb03fe0563881999080fc31cffda7c3bb730"
+          "checksumValue": "b8c063b5fe36fe5f8b2a4dd52b94b7032bc42e5a"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "219167c07231bfd238f1daa4fe3f22c1e8e98fb80bc6eceeb4f144e26101d60e"
+          "checksumValue": "d3c0e44996c69f599b5b3932a6a76fe6f9e71cb65cb93d285b13eb0c800396aa"
         },
         {
           "algorithm": "SHA512",
-          "checksumValue": "251c948e071c261e4b3ce212f4bee2489d5e0d4483ce2a13b6ea02f29740ac5e1aa4d322b723f390105f860c0d09ac18ea5b8579cd63d667d8771722530df2f2"
+          "checksumValue": "04dc42b7b4ed9ec0bd58b425a1f2dee3d9fe1648a1f4901dbb5f2d8add8c056e599da9426d4cac74d11d5d7d7c6ed23346be2b591ef6400f5ba173d6028865dc"
         }
       ]
     },
@@ -868,15 +868,15 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "0c021cc69430469151e187e0fee8b405553ec92b"
+          "checksumValue": "fc47ba233249f64178dc75a4f3ae7dbcff9b3ea1"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "4c001cfe0824516beec45b8f44c9d4e983b774257c26ee2e377fd77a258f80cd"
+          "checksumValue": "93eaaea41ec656b76b55ff89fabffbc2e5529b2293c2c5098b7ca27b863279a0"
         },
         {
           "algorithm": "SHA512",
-          "checksumValue": "6fc0ebc1dfc6c0f375b09ec62a395644eb3e5ec585c68d859b59133d95d4c9795cfe0094bee30cc401482daf017c54cac011454c6f660587737c44da932d10db"
+          "checksumValue": "22475e900a2ccf5e38866ecced7566ecab53d1e08047efef62c9806d9f826ac90711576401862b905d6e50eb6e9c816a5e1f82c81b06fe3700f5a8f9cf8dd7a5"
         }
       ]
     },
@@ -895,15 +895,15 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "0c021cc69430469151e187e0fee8b405553ec92b"
+          "checksumValue": "fc47ba233249f64178dc75a4f3ae7dbcff9b3ea1"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "4c001cfe0824516beec45b8f44c9d4e983b774257c26ee2e377fd77a258f80cd"
+          "checksumValue": "93eaaea41ec656b76b55ff89fabffbc2e5529b2293c2c5098b7ca27b863279a0"
         },
         {
           "algorithm": "SHA512",
-          "checksumValue": "6fc0ebc1dfc6c0f375b09ec62a395644eb3e5ec585c68d859b59133d95d4c9795cfe0094bee30cc401482daf017c54cac011454c6f660587737c44da932d10db"
+          "checksumValue": "22475e900a2ccf5e38866ecced7566ecab53d1e08047efef62c9806d9f826ac90711576401862b905d6e50eb6e9c816a5e1f82c81b06fe3700f5a8f9cf8dd7a5"
         }
       ]
     },
@@ -949,15 +949,15 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "096aa4ce5294629e6ecc567acead4c43070e8d90"
+          "checksumValue": "b965eb3b15e2d056ae1add46de5ae8940f1de458"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "b469217588388cd7b78e38f12c92b355a91f4e74480e31984db06b5819358fe4"
+          "checksumValue": "9bc256af66f67df7b7b3a742a00087d58d64895ceaa5c7100d3493f2428234bb"
         },
         {
           "algorithm": "SHA512",
-          "checksumValue": "182e64f29639761df31cde7fe627cc540e67c4b9f79193d6b3bd5072c7b30cf4fccfe587e32df0dad8fca748e53a3df7c508603c6021454b568e4fed222ee4e4"
+          "checksumValue": "ca088e9c0d6bd2d49d7dbe5ee407bb1c65e08b163f4b77b0454a7aa7d4382cf0a6c7b94e12539f9416f7baf42d4cc1e5b202efe6f30e3a939db7717bf57cb91d"
         }
       ]
     },
@@ -976,15 +976,15 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "4bae4a1b481cbb13899ee47dbd7ad4e5135f6fe9"
+          "checksumValue": "e2a70179714bdafa40c3a40152c83cc9d8c13412"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "ac2bb14e8633a8f95aeec009f4a7e62faa21f747d59db9d03078ddab0362bf77"
+          "checksumValue": "b7aa7adebfd2c672c937eded4d59be9fc4cf4128d4bce72cbeda47ac880b6042"
         },
         {
           "algorithm": "SHA512",
-          "checksumValue": "322dc50882d0a1b6537244d2ed68de440ea66fd93ecf875adb0d21aa053d250389f7e5d5d3ab3f35fd810e84ac4d3d7babc125aca938154f67a63c494d5abc79"
+          "checksumValue": "56bdabedf690091111ccc4ec786f3501796e0b923c7d4713b8984987ac198286ac0035c9a096a5d30e4d9bc90c9dd42d7113100152266272f23932e6e9bbc99d"
         }
       ]
     },
@@ -1003,15 +1003,15 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "ffb0cdd63663a724b9252f24d8f6f5cc6355b325"
+          "checksumValue": "2d57a826694312b9bb6374fab5425a2a0e82711f"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "b7ffee6e4da2c0f5afe4d4939c55a91e9aa845c233f015dcc0a2bcd055706078"
+          "checksumValue": "dd2dde04a0a1dbd23bab04855c1fe2228824068ca3280a27812da27f46c0e51b"
         },
         {
           "algorithm": "SHA512",
-          "checksumValue": "db521deb3209893904362642a2100987a20f43b1aa13e034b98269265691eaba2b7079e67ccc2b484dce0eb83dee8dd70c669dffa13702c125044036b6fa5746"
+          "checksumValue": "8b7297a30d2078805c0dcbff3a626d0253213c7390bfda55b0384aec86f8d47bf6cc752dda33683f7159867ffc0813356464c0c19b2845a840a1baa62ebf5b24"
         }
       ]
     },
@@ -1043,7 +1043,34 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-39-30c3171b2b7b7e1a50b2aa68d818e633012ef5",
+      "SPDXID": "SPDXRef-File-39-3d09d8963001a6d478e07eb01c9f7bc98f2320",
+      "fileName": "./.git/objects/4d/3d09d8963001a6d478e07eb01c9f7bc98f2320",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "APPLICATION"
+      ],
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "39a34ac1f40527460d1c3279104c37b3c7cc4b99"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e6416a41ff7d71f58e3be5f841f5007ac3a007a80a02304521f5e81f3ceab0eb"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "2f68d6a687d2002a78a6c3a698a6daf65faf29582caaaa4956ae4760b679269239e3e11e40ea730dbd4c3fcee3213a7b48fbbe5eab0b1c597176440dcd458af5"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-40-30c3171b2b7b7e1a50b2aa68d818e633012ef5",
       "fileName": "./.git/objects/87/30c3171b2b7b7e1a50b2aa68d818e633012ef5",
       "copyrightText": "NOASSERTION",
       "licenseConcluded": "NOASSERTION",
@@ -1070,8 +1097,8 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-40-052f8fa70617ccd4fc0fa76ffe0032f29cd1cd",
-      "fileName": "./.git/objects/ba/052f8fa70617ccd4fc0fa76ffe0032f29cd1cd",
+      "SPDXID": "SPDXRef-File-41-d036d13e6d4eef6f7ce87b508add19bc733cca",
+      "fileName": "./.git/objects/69/d036d13e6d4eef6f7ce87b508add19bc733cca",
       "copyrightText": "NOASSERTION",
       "licenseConcluded": "NOASSERTION",
       "fileTypes": [
@@ -1084,20 +1111,47 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "f3e06b29bc59bd60487baa62e856495ce61faa81"
+          "checksumValue": "8477018ae03726d99e11565b229c249711c1746b"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "e1beaff3f6344fb528c9995741dca9a08e727acee5a0f176ff4b9cfa284985d2"
+          "checksumValue": "8ea923855003692a96ccb55d6f2a4dea6327537264b937cd8e05f9115aea69c0"
         },
         {
           "algorithm": "SHA512",
-          "checksumValue": "22852b0c0342cb739618d927af55605389eee2924c7c3c67884c36e30113b4100e56582f2ce44da153644b1857f941bc1b21f2fa75b596ba4d2c8ce35ce19d26"
+          "checksumValue": "57fe368d5dc570c6694b3c082d022ecf48509e69d68f407a8ff610e2e453f80b2a55028f385c0cda318dbe4bbfa947c1a7d3ad133c49ff60bfe40d5bf42cc6c9"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-41-daf32b80c268ee3307e002afedc8e4ea12edf1",
+      "SPDXID": "SPDXRef-File-42-d1a80e32d0d5bc60cbe3df6739f8cfb7c56ea1",
+      "fileName": "./.git/objects/fe/d1a80e32d0d5bc60cbe3df6739f8cfb7c56ea1",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "APPLICATION"
+      ],
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b556f8a5cb5ac5eac8214c9e322164a403d58206"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "dbd0589954ac960d4a3c8323ffedd3d5b061cbc4011de6b91e915b6c4509f56c"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "f69bfcf539fedd4883e72de425a978a6d583e580f4bc7f2708b4245a05881086a100b28222ce9ee563e2e60effedd6f734c0e9de60e859536b0df41f5632b3e0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-43-daf32b80c268ee3307e002afedc8e4ea12edf1",
       "fileName": "./.git/objects/9a/daf32b80c268ee3307e002afedc8e4ea12edf1",
       "copyrightText": "NOASSERTION",
       "licenseConcluded": "NOASSERTION",
@@ -1124,7 +1178,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-42-cf459b1fea26aebb452ab6cc7c58128eb31afc",
+      "SPDXID": "SPDXRef-File-44-cf459b1fea26aebb452ab6cc7c58128eb31afc",
       "fileName": "./.git/objects/ff/cf459b1fea26aebb452ab6cc7c58128eb31afc",
       "copyrightText": "NOASSERTION",
       "licenseConcluded": "NOASSERTION",
@@ -1151,7 +1205,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-43-4d390e8473094f6f4ec7c2295cfab38dc2e2a5",
+      "SPDXID": "SPDXRef-File-45-4d390e8473094f6f4ec7c2295cfab38dc2e2a5",
       "fileName": "./.git/objects/e8/4d390e8473094f6f4ec7c2295cfab38dc2e2a5",
       "copyrightText": "NOASSERTION",
       "licenseConcluded": "NOASSERTION",
@@ -1178,7 +1232,34 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-44-f2ec377d1b0936981f71e723df16cda9e72ece",
+      "SPDXID": "SPDXRef-File-46-5f840b5d0571a882198c8912afb60043322c3e",
+      "fileName": "./.git/objects/33/5f840b5d0571a882198c8912afb60043322c3e",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "APPLICATION"
+      ],
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9737d19445d368be27a0d31cf1b30e8cce843030"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "79c4377fa3ef481e42e3ce23b3ee0563ac65a13140962bd63656d01d5d51769b"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "e0cc02fab1ccef034ff623b24699fac3883276e9c0f458337d091250b0b457d03eee6e6d3f7664f85441525c219ae2ac19f696bfc328df3788be0df028f1a8dd"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-47-f2ec377d1b0936981f71e723df16cda9e72ece",
       "fileName": "./.git/objects/5b/f2ec377d1b0936981f71e723df16cda9e72ece",
       "copyrightText": "NOASSERTION",
       "licenseConcluded": "NOASSERTION",
@@ -1205,61 +1286,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-45-c2ebd2bf3e3772d23e415b430512067d843d7e",
-      "fileName": "./.git/objects/7b/c2ebd2bf3e3772d23e415b430512067d843d7e",
-      "copyrightText": "NOASSERTION",
-      "licenseConcluded": "NOASSERTION",
-      "fileTypes": [
-        "APPLICATION"
-      ],
-      "licenseInfoInFiles": [
-        "NOASSERTION"
-      ],
-      "licenseComments": "Unable to determine license from the file.",
-      "checksums": [
-        {
-          "algorithm": "SHA1",
-          "checksumValue": "86f3f9a5078cce62f18567ce41ff03f46b32155a"
-        },
-        {
-          "algorithm": "SHA256",
-          "checksumValue": "e06391ed7c293d0e59ec914b3b75bd1efc736b2b9c0fa83d358f11253cd32d0c"
-        },
-        {
-          "algorithm": "SHA512",
-          "checksumValue": "6c428f4faadfaa9fbc6ae7b47c5ec4bee3cb4be4bc5496229f79510507481d7569e1b6e35a0c34bd2746f0fe99a95ea6739be8921759615f252ef0e8f7eaeaf1"
-        }
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-File-46-c69ae1b266c35fec5dcb5def2a4757afde0485",
-      "fileName": "./.git/objects/35/c69ae1b266c35fec5dcb5def2a4757afde0485",
-      "copyrightText": "NOASSERTION",
-      "licenseConcluded": "NOASSERTION",
-      "fileTypes": [
-        "APPLICATION"
-      ],
-      "licenseInfoInFiles": [
-        "NOASSERTION"
-      ],
-      "licenseComments": "Unable to determine license from the file.",
-      "checksums": [
-        {
-          "algorithm": "SHA1",
-          "checksumValue": "cb26955e5f236633cc8a85df99c313aef6b1e25c"
-        },
-        {
-          "algorithm": "SHA256",
-          "checksumValue": "474a2db26852206c2d99aba274d67ce26197618f26c44e853c087b4187c4c4a8"
-        },
-        {
-          "algorithm": "SHA512",
-          "checksumValue": "45f3a7609e4ebd935bb75a3ce69578216e317b33e9229e58ff44aa421e5eba2ba540ca38359ad926f84e380a6d51df789fe00706114baed8d4d3ba135fd291fd"
-        }
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-File-47-004ba1b7bcff041a4606655105867458738280",
+      "SPDXID": "SPDXRef-File-48-004ba1b7bcff041a4606655105867458738280",
       "fileName": "./.git/objects/64/004ba1b7bcff041a4606655105867458738280",
       "copyrightText": "NOASSERTION",
       "licenseConcluded": "NOASSERTION",
@@ -1286,7 +1313,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-48-d8bf4468b774bb359492223bbdcbe7051243ed",
+      "SPDXID": "SPDXRef-File-49-d8bf4468b774bb359492223bbdcbe7051243ed",
       "fileName": "./.git/objects/dd/d8bf4468b774bb359492223bbdcbe7051243ed",
       "copyrightText": "NOASSERTION",
       "licenseConcluded": "NOASSERTION",
@@ -1313,7 +1340,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-49-819056dd675bf1ce9737ec66ded4936cbabe4f",
+      "SPDXID": "SPDXRef-File-50-819056dd675bf1ce9737ec66ded4936cbabe4f",
       "fileName": "./.git/objects/0e/819056dd675bf1ce9737ec66ded4936cbabe4f",
       "copyrightText": "NOASSERTION",
       "licenseConcluded": "NOASSERTION",
@@ -1336,33 +1363,6 @@
         {
           "algorithm": "SHA512",
           "checksumValue": "3d0a5d62e86186046d662c82fa0c9cd6347e6186c4036bddb6ecc4a7a18c64d4ef98294dff0c8b005ffbc9c81cb42a3ce4e7bfe510e520088f1a0445e557d6ee"
-        }
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-File-50-a37d04b7e72741f1cbf9bf0170b0ed4d6cc359",
-      "fileName": "./.git/objects/c3/a37d04b7e72741f1cbf9bf0170b0ed4d6cc359",
-      "copyrightText": "NOASSERTION",
-      "licenseConcluded": "NOASSERTION",
-      "fileTypes": [
-        "APPLICATION"
-      ],
-      "licenseInfoInFiles": [
-        "NOASSERTION"
-      ],
-      "licenseComments": "Unable to determine license from the file.",
-      "checksums": [
-        {
-          "algorithm": "SHA1",
-          "checksumValue": "320f6f509216aa0a7534dc26696bc6ae37af2ed6"
-        },
-        {
-          "algorithm": "SHA256",
-          "checksumValue": "75d2db9311b0900e67357923e2464410e8dc9cb5813c748de09860d05d3c530b"
-        },
-        {
-          "algorithm": "SHA512",
-          "checksumValue": "949b6d62b9918627d87ea9bf3873d2671498fba90c7024d376534f7e9c1805e2c8abf95076a61d8458bdaf5397b86693e637439b86387d9f652d1b0ef5360dcc"
         }
       ]
     },
@@ -1567,7 +1567,7 @@
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-39-30c3171b2b7b7e1a50b2aa68d818e633012ef5",
+      "relatedSpdxElement": "SPDXRef-File-39-3d09d8963001a6d478e07eb01c9f7bc98f2320",
       "relationshipType": "CONTAINS"
     },
     {
@@ -1577,52 +1577,52 @@
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-40-052f8fa70617ccd4fc0fa76ffe0032f29cd1cd",
+      "relatedSpdxElement": "SPDXRef-File-40-30c3171b2b7b7e1a50b2aa68d818e633012ef5",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-41-daf32b80c268ee3307e002afedc8e4ea12edf1",
+      "relatedSpdxElement": "SPDXRef-File-41-d036d13e6d4eef6f7ce87b508add19bc733cca",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-42-cf459b1fea26aebb452ab6cc7c58128eb31afc",
+      "relatedSpdxElement": "SPDXRef-File-42-d1a80e32d0d5bc60cbe3df6739f8cfb7c56ea1",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-43-4d390e8473094f6f4ec7c2295cfab38dc2e2a5",
+      "relatedSpdxElement": "SPDXRef-File-43-daf32b80c268ee3307e002afedc8e4ea12edf1",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-44-f2ec377d1b0936981f71e723df16cda9e72ece",
+      "relatedSpdxElement": "SPDXRef-File-44-cf459b1fea26aebb452ab6cc7c58128eb31afc",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-45-c2ebd2bf3e3772d23e415b430512067d843d7e",
+      "relatedSpdxElement": "SPDXRef-File-45-4d390e8473094f6f4ec7c2295cfab38dc2e2a5",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-46-c69ae1b266c35fec5dcb5def2a4757afde0485",
+      "relatedSpdxElement": "SPDXRef-File-46-5f840b5d0571a882198c8912afb60043322c3e",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-47-004ba1b7bcff041a4606655105867458738280",
+      "relatedSpdxElement": "SPDXRef-File-47-f2ec377d1b0936981f71e723df16cda9e72ece",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-48-d8bf4468b774bb359492223bbdcbe7051243ed",
+      "relatedSpdxElement": "SPDXRef-File-48-004ba1b7bcff041a4606655105867458738280",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-49-819056dd675bf1ce9737ec66ded4936cbabe4f",
+      "relatedSpdxElement": "SPDXRef-File-49-d8bf4468b774bb359492223bbdcbe7051243ed",
       "relationshipType": "CONTAINS"
     },
     {
@@ -1632,7 +1632,7 @@
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-50-a37d04b7e72741f1cbf9bf0170b0ed4d6cc359",
+      "relatedSpdxElement": "SPDXRef-File-50-819056dd675bf1ce9737ec66ded4936cbabe4f",
       "relationshipType": "CONTAINS"
     },
     {
