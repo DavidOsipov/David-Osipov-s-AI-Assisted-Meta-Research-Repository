@@ -70,13 +70,13 @@ jobs:
         uses: peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: 'chore(sbom): Update SBOM' # Quoted to avoid YAML parsing issues
+          commit-message: 'Update SBOM' # Quoted to avoid YAML parsing issues
           committer: 'SBOM Generator <noreply@github.com>' # Quoted
           author: '${{ github.actor }} <${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com>' # Quoted
           signoff: false
-          branch: 'chore/update-sbom' # Quoted for consistency
+          branch: 'update-sbom' # Quoted for consistency
           delete-branch: true # Delete the branch once the PR is merged/closed
-          title: 'chore(sbom): Update SBOM' # Quoted
+          title: 'Update SBOM' # Quoted
           body: |
             Automated SBOM update via GitHub Actions.
 
