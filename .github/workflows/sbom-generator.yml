@@ -57,7 +57,7 @@ jobs:
           jq 'del(.files[] | select(.fileName | startswith("./.git/")))' sbom.spdx > sbom_filtered.spdx && mv sbom_filtered.spdx sbom.spdx
           
       - name: Commit SBOM file
-        uses: stefanzweifel/git-auto-commit-action@e348103e9026cc0eee72ae06630dbe30c8bf7a79
+        uses: stefanzweifel/git-auto-commit-action@e256565ae56ff1c64fad2e063453107bf88f6aa1
         with:
           commit_message: "chore: Update SBOM"
           file_pattern: sbom.spdx
