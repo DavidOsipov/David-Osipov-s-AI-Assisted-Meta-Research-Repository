@@ -6,12 +6,12 @@
     "creators": [
       "Tool: sbom4files-0.4.5"
     ],
-    "created": "2025-04-16T11:55:27Z",
+    "created": "2025-04-16T12:04:30Z",
     "licenseListVersion": "3.25"
   },
   "name": "DavidOsipov/David-Osipov-AI-Assisted-Meta-Research-Repository",
   "dataLicense": "CC0-1.0",
-  "documentNamespace": "http://spdx.org/spdxdocs/DavidOsipov/David-Osipov-AI-Assisted-Meta-Research-Repository-cdf8c650-c6f8-4f2d-a6c9-a15dbe6f366a",
+  "documentNamespace": "http://spdx.org/spdxdocs/DavidOsipov/David-Osipov-AI-Assisted-Meta-Research-Repository-6ca01c1a-73de-4de0-9b7e-39a445808d34",
   "files": [
     {
       "SPDXID": "SPDXRef-File-1-LICENSE",
@@ -165,15 +165,15 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "21d932baca6573f6c6e280f26be11072a9b3692d"
+          "checksumValue": "2594ffbc6a5f8463bf0908be2c9ada69b0a46c05"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "7bc6929e69ac98a874fd9495e576399bf4932cdf98761afaeea1821fa921444b"
+          "checksumValue": "884b7af4986e01404842e11ec08cbfa6c1a5545ccd0bffc1b9334cebe3431104"
         },
         {
           "algorithm": "SHA512",
-          "checksumValue": "29aa6827db640244d4a001e0fd62b3682ca6a6578aeb9ed75e44d54499844bcf9fa92178fcc1e46f6cab10693c82d8d1fb477f741df8b26d15f23f2fbb00a72a"
+          "checksumValue": "fa425c53137f5014960933ddbca2d1e197e80a7a41a54709fffdd20bd174cd56981319afb02c2e54cc69ac02c9bac7b2f21751d4e0f9e41d5a06faf2b5307e86"
         }
       ]
     },
@@ -378,7 +378,7 @@
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-39-94c4292ede3cb60571df9c9b7f801a943adf50",
+      "relatedSpdxElement": "SPDXRef-File-39-30c3171b2b7b7e1a50b2aa68d818e633012ef5",
       "relationshipType": "CONTAINS"
     },
     {
@@ -388,32 +388,32 @@
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-40-7408479ebf961fff5f5462cf420ecfa3a2f6e9",
+      "relatedSpdxElement": "SPDXRef-File-40-b5399eba936fe1911f002adef84d7d2f73c361",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-41-e188bb3cd57cedfb9b28529229ca6da90f4c91",
+      "relatedSpdxElement": "SPDXRef-File-41-63e081b8d5495caab81c9f9e757603c27021a8",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-42-daf32b80c268ee3307e002afedc8e4ea12edf1",
+      "relatedSpdxElement": "SPDXRef-File-42-c2da9093d769a9bc51f500ba09df8ab3d20617",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-43-007af2b7384ac6eee6fe960c0403da16073507",
+      "relatedSpdxElement": "SPDXRef-File-43-daf32b80c268ee3307e002afedc8e4ea12edf1",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-44-4d390e8473094f6f4ec7c2295cfab38dc2e2a5",
+      "relatedSpdxElement": "SPDXRef-File-44-007af2b7384ac6eee6fe960c0403da16073507",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-45-e1dce413ff96a233fafbfdee572da95f41e915",
+      "relatedSpdxElement": "SPDXRef-File-45-4d390e8473094f6f4ec7c2295cfab38dc2e2a5",
       "relationshipType": "CONTAINS"
     },
     {
@@ -428,7 +428,7 @@
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-48-7556c1123a768c5c8f19279d4fa3f2aaaade4e",
+      "relatedSpdxElement": "SPDXRef-File-48-1e2d401e6b5ce9185baf801951b1494b7f64ed",
       "relationshipType": "CONTAINS"
     },
     {
@@ -443,7 +443,7 @@
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-50-3099b060f98a0b1587d18ecdfc2ca08f1ab60d",
+      "relatedSpdxElement": "SPDXRef-File-50-962ea18cfcd31499e613efb4ebb8ab2c2fbd33",
       "relationshipType": "CONTAINS"
     },
     {
