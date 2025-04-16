@@ -29,7 +29,6 @@ You can find the full license text in the [LICENSE](LICENSE) file.
 
 *   **Attribution:** You **must** give appropriate credit in the following manner whenever you use, share, or adapt the material:
     *   Clearly identify **David Osipov** as the author/synthesizer.
-    *   Include a tag/mention of my GitHub profile: **@DavidOsipov**
     *   Include my **ORCID:** `0009-0005-2713-9242`
     *   Include my **ISNI:** `0000 0005 1802 960X`
     *   Provide a link back to the original material in this repository.
@@ -37,7 +36,7 @@ You can find the full license text in the [LICENSE](LICENSE) file.
     *   Provide a link to the license (CC BY 4.0).
 
     *Example Citation/Attribution:*
-    > Synthesized research on [Topic] by David Osipov (@DavidOsipov, ORCID: 0009-0005-2713-9242, ISNI: 0000 0005 1802 960X), retrieved from https://github.com/DavidOsipov/David-Osipov-s-AI-Assisted-Meta-Research-Repository, licensed under CC BY 4.0. [Indicate if changes were made].
+    > Synthesized research on [Topic] by David Osipov (ORCID: 0009-0005-2713-9242, ISNI: 0000 0005 1802 960X), retrieved from [Link to specific file in the repo], licensed under CC BY 4.0. [Indicate if changes were made].
 
     Fulfilling these attribution requirements is essential for compliance with the CC BY 4.0 license.
 
