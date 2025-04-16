@@ -36,7 +36,7 @@ You can find the full license text in the [LICENSE](LICENSE) file.
     *   Provide a link to the license (CC BY 4.0).
 
     *Example Citation/Attribution:*
-    > Synthesized research on [Topic] by David Osipov (ORCID: 0009-0005-2713-9242, ISNI: 0000 0005 1802 960X), retrieved from [Link to specific file in the repo], licensed under CC BY 4.0. [Indicate if changes were made].
+    > Synthesized research on [Topic] by David Osipov © [Year] (@DavidOsipov, ORCID: 0009-0005-2713-9242, ISNI: 0000 0005 1802 960X), retrieved from [Link to specific file/repo], licensed under CC BY 4.0. [Indicate if changes were made]
 
     Fulfilling these attribution requirements is essential for compliance with the CC BY 4.0 license.
 
