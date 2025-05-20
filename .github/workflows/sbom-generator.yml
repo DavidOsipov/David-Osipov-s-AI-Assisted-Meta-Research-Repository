@@ -56,7 +56,7 @@ jobs:
           echo "SBOM generation completed."
 
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@14576695c2f87fd4b34c70c3281d86036064ddda
+        uses: peter-evans/create-pull-request@6658b293f01239e9f0bd7469979ab4a9023b65ad
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: 'Update SBOM' # Quoted to avoid YAML parsing issues
